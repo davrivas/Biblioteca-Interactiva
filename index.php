@@ -14,7 +14,15 @@
 </head>	
 
 <body>
-
+<?php
+require 'modelo/EstadoLibro.php';
+$el = new EstadoLibro();
+$el->setId(1);
+$el->setEstadoLibro('arreglado');
+echo 'El estado del libro es <br>';
+echo 'Id: ' + $el->getId() + '<br>';
+echo 'Estado libro: ' + $el->getEstadoLibro() + '<br>';
+?>
 
 	  <h1>	Biblioteca Interactiva </h1> 
 

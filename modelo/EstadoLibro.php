@@ -1,9 +1,9 @@
 <?php
-    public class EstadoLibro {
+    class EstadoLibro {
         private $id;
         private $estadoLibro;
 
-        public EstadoLibro() {
+        public function __constructor() {
         }
 
         /**
